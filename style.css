@@ -53,7 +53,7 @@
 .modal p{
     /* color: white; */
     color: lightpink;
-    font-size: 2rem;
+    font-size: clamp(1rem, 75%, 2rem);
     position: absolute;
     bottom: 5%;
     left: 50%;
