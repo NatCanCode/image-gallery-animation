@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Image gallery</title>
+</head>
+<body>
+    
+    <div class="gallery">
+        <div class="img-container">
+            <img 
+            src="./preview-images/white-feather-preview.jpg" 
+            alt="As light as a feather."
+            data-original="./full-images/white-feather-full.jpg"/>
+        </div>
+        <div class="img-container">
+            <img 
+            src="./preview-images/pink-flower-preview.jpg" 
+            alt="The soothing power of flowers."
+            data-original="./full-images/pink-flower-full.jpg"/>
+        </div>
+        <div class="img-container">
+            <img 
+            src="./preview-images/white-leaf-preview.jpg" 
+            alt="Cream colours are everything."
+            data-original="./full-images/white-leaf-full.jpg"/>
+        </div>
+    </div>
+
+    <div class="modal">
+        <img src="./full-images/white-feather-full.jpg" alt="white feather in a white background" class="full-img"/>
+        <p class="caption">As light as a feather.</p>
+    </div>
+    <div class="modal">
+        <img src="./full-images/pink-flower-full.jpg" alt="pink flower in a white background" class="full-img"/>
+        <p class="caption">The soothing power of flowers.</p>
+    </div>
+    <div class="modal">
+        <img src="./full-images/white-feather-full.jpg" alt="white feather in a white background" class="full-img"/>
+        <p class="caption">Cream colours are everything.</p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
