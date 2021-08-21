@@ -52,7 +52,7 @@
 }
 .modal p{
     /* color: white; */
-    color: lightpink;
+    color: #efd9d1;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-size: clamp(1.5rem, 75%, 2.5rem);
