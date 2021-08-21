@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}   
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -53,6 +53,8 @@
 .modal p{
     /* color: white; */
     color: lightpink;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
     font-size: clamp(1.5rem, 75%, 2.5rem);
     position: absolute;
     bottom: 5%;
